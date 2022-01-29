@@ -9,7 +9,7 @@ class TodoViewSet(ModelViewSet):
     queryset = Todo.objects.all()
     serializer_class = TodoSerializer
     # authentication_classes = [TokenAuthentication,]
-    permission_classes = [IsAuthenticated,]
+    # permission_classes = [IsAuthenticated,]
 
 
 
